@@ -89,8 +89,8 @@ if __name__ == "__main__":
     
     # --- 1. Get File Paths from User Input ---
     print("\n--- FASTA Converter Setup ---")
-    INPUT_CSV_FILE = input("Enter your input CSV filepath (e.g., C:\\data\\database.csv): ").strip()
-    OUTPUT_FASTA_FILE = input("Enter your desired output FASTA filepath (e.g., output.fasta): ").strip()
+    INPUT_CSV_FILE = input("Enter your input CSV filepath (e.g. C:\\data\\database.csv): ").strip()
+    OUTPUT_FASTA_FILE = input("Enter your desired output FASTA filepath (e.g.ioutput.fasta): ").strip()
 
     # --- 2. Get Target IDs/Mode from User Input ---
     id_input = input("Which IDs would you like to extract? (Use commas to separate multiple, or type 'all'): ").strip()
